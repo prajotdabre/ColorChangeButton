@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    gap: 10px;
+}
+
+#btn-color{
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: aqua;
+    height: 40px;
+    width: 100px;
+    transition: all 0.5s;
+    box-shadow: 0 0 0 1.75px white;
+}
+
+#btn-color:hover{
+    transform: scale(1.05);
+}
+.color-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-size: 20px;
+    font-weight:500;
+}
+
+.newColorDisplay{
+    transition: all 0.5s;
+}
+
+.click{
+    font-size: 16px;
+}
